@@ -2,7 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-VERIFY_TOKEN = "iconicKey"  # Token de verificación que puse en Meta
+VERIFY_TOKEN = "tutoken"  # Token de verificación que se coloca en Meta
 
 @app.route("/webhook", methods=["GET"])
 def verify():
